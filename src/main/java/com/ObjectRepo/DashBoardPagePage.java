@@ -70,7 +70,7 @@ public class DashBoardPagePage
 		return RoomsForRent;
 	}
 	
-	public WebElement logout()
+	public WebElement getlogout()
 	{
 		return logout;
 	}
