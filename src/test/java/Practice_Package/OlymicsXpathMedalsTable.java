@@ -46,7 +46,7 @@ public class OlymicsXpathMedalsTable {
 //			
 //			
 //		}
-		String ag="Armenia";
+		String ag="India";
 		String gold = driver.findElement(By.xpath("//span[.='"+ag+"']/parent::div/following-sibling::div[@title='Gold']/span")).getText();
 		String silver= driver.findElement(By.xpath("//span[.='"+ag+"']/parent::div/following-sibling::div[@title='Silver']/span")).getText();
 		
